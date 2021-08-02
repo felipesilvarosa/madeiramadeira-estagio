@@ -1,0 +1,17 @@
+footer {
+	margin-top: 2rem;
+	background-color: #f48933;
+}
+
+footer p {
+	color: white;
+}
+footer .bi {
+	margin-right: 50px;
+	font-size: 40px;
+	color: white;
+}
+
+footer .bi:hover {
+	color: #2c5fa5;
+}

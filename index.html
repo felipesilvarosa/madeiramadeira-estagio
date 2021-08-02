@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+
+		<!-- Bootstraap Icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+		/>
+
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/banner/banner.css" />
+		<link rel="stylesheet" href="./css/quem/quem.css" />
+		<link rel="stylesheet" href="./css/quem/quem__resumo.css" />
+		<link rel="stylesheet" href="./css/quem/quem__descricao.css" />
+		<link rel="stylesheet" href="./css/quem/quem__skills.css" />
+		<link rel="stylesheet" href="./css/aspiracoes.css" />
+		<link rel="stylesheet" href="./css/header/header.css" />
+		<link rel="stylesheet" href="./css/header/header__navbar.css" />
+		<link rel="stylesheet" href="./css/crenca.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
+
+		<title>Felipe Rosa</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<!-- Navbar -->
+			<nav class="header__navbar navbar navbar-expand-xl">
+				<a class="header__navbar--link navbar-brand" href="#">Felipe Rosa</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse justify-content-end"
+					id="navbarNavAltMarkup"
+				>
+					<div class="navbar-nav">
+						<a
+							class="header__navbar--link nav-link active"
+							aria-current="page"
+							href="#quem"
+							>Quem</a
+						>
+						<a class="header__navbar--link nav-link" href="#crencas">Crenças</a>
+						<a class="header__navbar--link nav-link" href="#aspiracoes"
+							>Aspirações</a
+						>
+						<a class="header__navbar--link nav-link" href="#aspiracoes"
+							>Propósito</a
+						>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main class="d-flex flex-column justify-content-around align-items-center">
+			<section class="banner">
+				<div class="banner d-flex flex-column justify-content-evenly">
+					<div
+						class="
+							banner__title
+							d-flex
+							flex-column
+							justify-content-around
+							align-items-center
+						"
+					>
+						<h1 class="mb-3 banner__title--h1">Felipe da Silva Rosa</h1>
+					</div>
+				</div>
+			</section>
+
+			<section id="quem" class="quem">
+				<div class="d-flex justify-content-evenly flex-wrap">
+					<div class="quem__resumo">
+						<div class="d-flex justify-content-evenly align-items-center">
+							<img
+								class="quem__resumo--imagem"
+								src="./assets/img/foto-01.png"
+								alt=""
+							/>
+							<div>
+								<ul class="quem__lista">
+									<li><h3>Felipe Rosa</h3></li>
+									<li>Iniciante a Dev</li>
+									<li>Mestre de RPG</li>
+									<li>Cozinheiro</li>
+									<li>Entusiasta a Psicólogo</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="quem__descricao">
+						<h3>Um pouco sobre mim</h3>
+						<p>
+							Sou o Felipe, estou no meio de uma transição de carreira, buscando
+							minha desafios e oportunidades de aprendizado como desenvolvedor
+						</p>
+						<p>
+							Estou no segundo período de Análise e Desenvolvimento de Sistemas,
+							e sou bolsista do bootcamp Certified Tech Developer da Digital
+							House
+						</p>
+						<p>
+							Aprendi muito nos últimos anos, da cozinha de alta gastronomia:
+							com pressão constante, agilidade, com muito trabalho em equipe,
+							até a psicologia: aprendi a ouvir melhor, a compreender o outro, a
+							me apaixonar pela mente humana.
+						</p>
+						<p>
+							Amo aprender, resolver problemas e conflitos, curto compartilhar e
+							ensinar, afinal, é a melhor forma de aprender mais.
+						</p>
+					</div>
+					<div class="quem__skills d-flex justify-content-around mt-5">
+						<div
+							class="quem__skills--hard d-flex flex-column align-items-start"
+						>
+							<h3 class="align-self-center">Skills</h3>
+							<div class="d-flex flex-wrap justify-content-around">
+								<img src="./assets/img/html-5.png" alt="" />
+								<img src="./assets/img/css.png" alt="" />
+								<img src="./assets/img/java-script.png" alt="" />
+								<img src="./assets/img/icons8-bootstrap-480.png" alt="" />
+								<img src="./assets/img/Git_icon.svg.png" alt="" />
+								<img src="./assets/img/scrum.png" alt="" />
+								<img src="./assets/img/kanban.png" alt="" />
+							</div>
+						</div>
+
+						<div
+							class="quem__skills--soft d-flex flex-column align-items-start"
+						>
+							<h3 class="align-self-center">Paixões</h3>
+							<div class="d-flex justify-content-around">
+								<img src="./assets/img/dice.png" alt="" />
+								<img src="./assets/img/cooking.png" alt="" />
+								<img src="./assets/img/psychology-symbol.png" alt="" />
+								<img src="./assets/img/study.png" alt="" />
+								<img src="./assets/img/coding.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section
+				id="crencas"
+				class="
+					crenca
+					pt-5
+					mt-5
+					d-flex
+					flex-column
+					justify-content-around
+					align-items-center
+				"
+			>
+				<div>
+					<h3>No que eu acredito?</h3>
+				</div>
+
+				<div class="d-flex justify-content-around flex-wrap">
+					<div class="card" style="width: 18rem">
+						<img
+							src="./assets/img/verdade.jpg"
+							class="card-img-top"
+							alt="..."
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Verdade</h5>
+							<p class="card-text">
+								Fale sempre a verdade. Ou, pelo menos, não conte deliberadamente
+								mentiras
+							</p>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem">
+						<img
+							src="./assets/img/suporte.jpg"
+							class="card-img-top"
+							alt="..."
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Apoiar</h5>
+							<p class="card-text">
+								Estamos todos juntos nessa, não vamos deixar mortos e feridos
+								para trás
+							</p>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem">
+						<img src="./assets/img/busca.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Pesquisar</h5>
+							<p class="card-text">
+								Pesquise profundamente: sobre você, sobre a vida e sobre tudo
+								que tiver dúvidas
+							</p>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem">
+						<img
+							src="./assets/img/disciplina.jpg"
+							class="card-img-top"
+							alt="..."
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Disciplina</h5>
+							<p class="card-text">
+								Se você cumprir suas obrigações todos os dias, não precisará se
+								preocupar com o futuro
+							</p>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem">
+						<img src="./assets/img/tempo.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Tempo</h5>
+							<p class="card-text">
+								O tempo é a unica coisa que é perdido e nunca retorna, aprender
+								a aproveitar é uma necessidade
+							</p>
+						</div>
+					</div>
+					<div class="card" style="width: 18rem">
+						<img src="./assets/img/heroi.jpg" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Super-heroi</h5>
+							<p class="card-text">
+								Seja o personagem principal da sua historia, para você e para os
+								outros a sua volta
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="aspiracoes" class="aspiracoes d-flex justify-content-around">
+				<div
+					class="aspiracoes__aspiracoes d-flex flex-column align-items-center"
+				>
+					<h3>Aspirações</h3>
+					<div
+						id="carouselExampleCaptions"
+						class="carousel slide carousel-fade"
+						data-bs-ride="carousel"
+					>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"
+							></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="./assets/img/trabalhar.jpg"
+									class="aspiracoes__imagem"
+									alt="..."
+								/>
+								<div class="carousel-caption">
+									<h5>Relacionamento</h5>
+									<p>Formar laços de amizade por locais que eu passo</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./assets/img/codar.jpg"
+									class="aspiracoes__imagem"
+									alt="..."
+								/>
+								<div class="carousel-caption">
+									<h5>Profissional</h5>
+									<p>Iniciar a carreira na área de tecnologia</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./assets/img/estudar.jpg"
+									class="aspiracoes__imagem"
+									alt="..."
+								/>
+								<div class="carousel-caption">
+									<h5>Estudos</h5>
+									<p>Me manter sempre estudando e atualizado</p>
+								</div>
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Anterior</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Proximo</span>
+						</button>
+					</div>
+				</div>
+				<div
+					class="
+						ms-5
+						d-flex
+						flex-column
+						align-items-center
+						justify-content-between
+					"
+				>
+					<h3>Propósito</h3>
+					<h4>
+						Utilizar meus conhecimentos para ajudar as pessoas a melhorarem a
+						qualidade de vida
+					</h4>
+					<button
+						type="button"
+						class="btn madeira"
+						data-bs-toggle="modal"
+						data-bs-target="#exampleModal"
+					>
+						<img src="./assets/img/MadeiraMadeira_Logo.png" alt="" />
+					</button>
+					<!-- Modal -->
+					<div
+						class="modal fade"
+						id="exampleModal"
+						tabindex="-1"
+						aria-labelledby="exampleModalLabel"
+						aria-hidden="true"
+					>
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">
+										madeira<b>madeira</b>
+									</h5>
+
+									<button
+										type="button"
+										class="btn-close"
+										data-bs-dismiss="modal"
+										aria-label="Close"
+									></button>
+								</div>
+								<div class="modal-body">
+									<p>
+										Trabalhar na madeira<b>madeira</b> me trará a oportunidade
+										de colocar em pratica meu aprendizado junto com a minha
+										experiencia anterior com psicologia, para trazer na
+										tecnológica, mais empatia e calor humano, sendo um agente da
+										transformação na vida das pessoas
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary">
+										Estágio!
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="d-flex justify-content-between align-items-center">
+			<div>
+				<p>Esse site foi produzido por Felipe da Silva Rosa</p>
+			</div>
+			<div>
+				<a href="https://www.linkedin.com/in/felipe-s-rosa/"
+					><i class="bi bi-linkedin"></i
+				></a>
+				<a href="https://github.com/felipsrosa/"
+					><i class="bi bi-github"></i
+				></a>
+			</div>
+		</footer>
+
+		<!-- Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

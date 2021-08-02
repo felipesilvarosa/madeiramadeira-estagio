@@ -1,0 +1,43 @@
+body,
+main,
+footer {
+	width: 100%;
+}
+
+section {
+	width: 80%;
+}
+
+ul {
+	list-style: none;
+	list-style-position: inside;
+	padding: 0;
+}
+
+p,
+li,
+a,
+ul {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Hahmlet', serif;
+}
+
+h3 {
+	color: #2c5fa5;
+}
+
+h4 {
+	line-height: 1.2;
+}
+
+h5 {
+	color: #f48933;
+}

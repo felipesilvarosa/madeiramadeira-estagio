@@ -1,0 +1,25 @@
+.banner {
+	height: calc(100vh + 56px);
+	width: 100%;
+	color: #fdfdfd;
+	background-image: url('../../assets/img/felipe-rosa-01.jpg');
+	background-position: 50% 20%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: overlay;
+	background-color: #000000a6;
+}
+
+.banner__title--h1 {
+	font-size: 4rem;
+}
+
+.banner__title--h1::after {
+	background-color: #f48933;
+	content: '';
+	display: block;
+	height: 0.3rem;
+	margin: 0.5rem auto;
+	width: 100%;
+}

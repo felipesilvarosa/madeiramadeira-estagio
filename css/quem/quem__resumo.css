@@ -1,0 +1,9 @@
+.quem__resumo {
+	flex-basis: 40%;
+}
+
+.quem__resumo--imagem {
+	width: 48%;
+	border-radius: 50%;
+	filter: grayscale(0.3);
+}
